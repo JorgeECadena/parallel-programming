@@ -1,3 +1,7 @@
+/*
+ * Speed up = (22153.4 / 0.0136203) = 1,626,498.6821141972
+ * Efficiency = (1,626,498.6821141972 / 512) = 3,176.7552385043
+ * */
 #include <iostream>
 #include <chrono>
 #include <cmath>
