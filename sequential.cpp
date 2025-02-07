@@ -28,10 +28,10 @@ int main() {
 		end = high_resolution_clock::now();
 		timeElapsed += duration<double, std::milli>(end - start).count();
 	}
-	count /= 10;
+	count /= N;
 
 	std::cout << "Sum: " << count << "\n";
-	std::cout << "Average execution time: " << timeElapsed / 10 << "ms\n";
+	std::cout << "Average execution time: " << timeElapsed / N << "ms\n";
 
 	return 0;
 }
